@@ -1,0 +1,13 @@
+<div class="row">
+  <div class="col-xs-3">
+    <input type="text" id="Key" class="form-control" placeholder="Enter key" autofocus>
+  </div>
+  <div class="col-xs-3">
+    <input type="text" id="Value" class="form-control" placeholder="Enter value">
+  </div>
+  <div>
+    <input type="button" id="Store" class="w3-button w3-black" value="Store">
+  </div>
+</div>
+<script src="<%= static_path(@conn, "/js/app.js") %>"></script>
+<script>require("js/app").Index.run()</script>

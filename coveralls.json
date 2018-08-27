@@ -1,0 +1,15 @@
+{
+  "skip_files": [
+    "lib/keyfinder/application.ex",
+    "lib/keyfinder/keystore.ex",
+    "lib/keyfinder/perf.ex",
+    "lib/keyfinder/repo.ex",
+    "lib/keyfinder_web/channels/user_socket.ex",
+    "lib/keyfinder_web/endpoint.ex",
+    "lib/keyfinder_web/router.ex",
+    "lib/keyfinder_web/gettext.ex",
+    "lib/keyfinder_web/views",
+    "lib/keyfinder_web.ex",
+    "test"
+  ]
+}
