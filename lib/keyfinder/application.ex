@@ -7,8 +7,7 @@ defmodule Keyfinder.Application do
     children = [
       supervisor(Keyfinder.Repo, []),
       supervisor(KeyfinderWeb.Endpoint, []),
-      {Keyfinder.Keystore,
-       Application.get_env(:keyfinder, :load_from_db)}
+      {Keyfinder.Keystore, Application.get_env(:keyfinder, :load_from_db)}
     ]
 
     opts = [strategy: :one_for_one, name: Keyfinder.Supervisor]

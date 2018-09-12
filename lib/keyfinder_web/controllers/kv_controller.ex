@@ -7,7 +7,7 @@ defmodule KeyfinderWeb.KvController do
   end
 
   def insert(conn, %{"key" => key, "value" => value}) do
-    Keystore.put(key, value)
+    Keystore.insert(key, value)
     json(conn, %{status: "OK"})
   end
 end
